@@ -3,8 +3,8 @@
 The kit stores everything in one append-only JSONL file. One record per
 line. Nothing is edited or deleted after it lands; a mistake is fixed by
 appending a `correction` record that points at the record it replaces.
-The rules below are the load-bearing ones. They come from a production
-agent ledger, simplified for general use.
+These rules come from a production agent ledger, simplified for general
+use.
 
 ## Rules
 

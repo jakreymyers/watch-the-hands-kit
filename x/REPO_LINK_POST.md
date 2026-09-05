@@ -1,19 +1,15 @@
-# Standalone repo-link post (GATED, do not post)
+# Standalone repo-link post (POSTED)
 
-Wording is with Jak right now. Draft below is a placeholder only, pending his final text.
+Status: POSTED 2026-09-05 ~2:49 PM PT as https://x.com/Jakrey/status/2096354940583022748
+Pipeline: drafted against the full playbook, Jak-rejection pass, editorial quality-presence pass (SHIP with singular "an unrequested style decision"), Jak's gate (approved 2:01 PM PT). Approved text in jak-x-system DRAFT-2026-09-05-REPO-LINK-POST-v2.md (commit 1946fac). [article link] filled with the live article URL at publish.
+Posting note: the first attempt posted mangled (X's composer submitted only the last paragraph) and was deleted within ~2 minutes; the posted copy above was verified verbatim at the live URL.
 
----
+## The post (as published)
 
-Draft:
+In September 2024, OpenAI's o1 launch post had a section titled "Hiding the Chains of Thought." From then on, users got a summary of the reasoning. OpenAI kept the full text.
 
-The reasoning display is a feature the vendor can thin, meter, or switch off. Your tool-call log is yours.
+This week, both flagship launches made the reasoning harder to read. Astra writes out less of it. Fable 5.1 can show its thinking, but the display ships off, and Anthropic's own research says the text omits the real reasons even when it's on. Reviewers showed what that looks like in practice: no visible reasoning at the settings routine work runs on, 5 of 27 checked quotes fabricated in one writing test, an unrequested style decision.
 
-Companion kit for the article: ledger schema, flag counter, per-class effort budgets, silent-downgrade check, and worked examples for each of last week's four failures.
+The full story, and the four things to own: https://x.com/Jakrey/status/2096349914246922340
 
-https://github.com/jakreymyers/watch-the-hands-kit
-
----
-
-Notes for firing:
-- Post only after the X longform article is live, so it can quote/link the article if Jak wants that.
-- Character count of the draft body (with URL): check against 280 before firing; the URL counts as ~23.
+The starter kit that implements them (log schema, flag counter, effort budgets, downgrade check): github.com/jakreymyers/watch-the-hands-kit

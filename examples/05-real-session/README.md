@@ -3,7 +3,7 @@
 The ledgers in examples 1 to 4 are synthetic. This one is not. It is
 converted from one real day (2026-09-04) of a production autonomous
 operation's append-only ledger, plus the session records behind it:
-one listening pass, one review batch, 21 published items, four failed
+one listening pass, one review batch, 22 published items, four failed
 publish attempts that became a real platform-friction flag, one
 correction, and one account snapshot.
 
@@ -49,7 +49,7 @@ Three things, two of which changed the kit:
    own classes into the config on day one, and the error message is
    the reminder to do it.
 
-The authorization field earned its keep on real data. The 21
+The authorization field earned its keep on real data. The 22
 published items split into two groups without any tagging work:
 sixteen approved verbatim by the owner in review batches and six
 published under a standing auto-send grant. "Which public actions ran

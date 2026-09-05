@@ -75,7 +75,7 @@ docs/                the longer write-ups, including how to adapt the kit to you
 The record shapes are a simplified, generalized version of the ledger a
 real autonomous operation runs on. The production ledger appends every
 signal, decision, snapshot, and correction to one JSONL file and
-validates it before every commit. The kit keeps the load-bearing ideas
+validates it before every commit. The kit keeps these ideas
 (append-only, corrections never overwrite, missing is null not zero,
 every metric carries availability and source) and drops everything
 specific to that operation.

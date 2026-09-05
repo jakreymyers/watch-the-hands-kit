@@ -1,8 +1,9 @@
 # 2. Count flags and tasks
 
-"Zero incidents" means nothing until you know how many tasks ran. An
-agent with no flags and an agent with no flag detector produce
-identical dashboards. The denominator is what separates them.
+"Zero incidents" means nothing until you know how many tasks ran. Gabriel
+Anhaia's summary: "An agent with no flags and an agent with no flag
+detector produce identical dashboards." The denominator is what separates
+them.
 
 ## Define the count before you need it
 

@@ -1,6 +1,6 @@
 # Example 4: identical dashboards
 
-The launch-week failure, in one line from the developer who named it:
+The launch-week failure, in one line from Gabriel Anhaia's piece:
 "An agent with no flags and an agent with no flag detector produce
 identical dashboards." A vendor's headline safety claim was a flag
 count taken on the vendor's own runs. A customer has no flag count
