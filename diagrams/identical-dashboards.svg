@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" font-family="Helvetica, Arial, sans-serif">
+  <rect width="880" height="420" fill="#ffffff"/>
+  <text x="440" y="40" text-anchor="middle" font-size="22" fill="#1a1a1a">Identical dashboards</text>
+  <text x="440" y="66" text-anchor="middle" font-size="14" fill="#666666">the denominator is what separates them</text>
+
+  <rect x="70" y="100" width="340" height="220" rx="10" fill="#f4f6f8" stroke="#c9d2da"/>
+  <text x="240" y="150" text-anchor="middle" font-size="15" fill="#666666">FLAGS THIS WEEK</text>
+  <text x="240" y="215" text-anchor="middle" font-size="64" fill="#1a7a3c" font-weight="bold">0</text>
+  <text x="240" y="265" text-anchor="middle" font-size="15" fill="#b3402a">tasks: unknown</text>
+  <text x="240" y="292" text-anchor="middle" font-size="13" fill="#666666">no detector, or no incidents? the tile cannot say</text>
+
+  <rect x="470" y="100" width="340" height="220" rx="10" fill="#f4f6f8" stroke="#c9d2da"/>
+  <text x="640" y="150" text-anchor="middle" font-size="15" fill="#666666">FLAGS THIS WEEK</text>
+  <text x="640" y="215" text-anchor="middle" font-size="64" fill="#1a7a3c" font-weight="bold">0</text>
+  <text x="640" y="265" text-anchor="middle" font-size="15" fill="#1a1a1a">across 1,247 recorded tasks</text>
+  <text x="640" y="292" text-anchor="middle" font-size="13" fill="#666666">flags per 100 tasks: 0.0</text>
+
+  <text x="440" y="380" text-anchor="middle" font-size="15" fill="#1a1a1a">An agent with no flags and an agent with no flag detector produce identical dashboards.</text>
+</svg>

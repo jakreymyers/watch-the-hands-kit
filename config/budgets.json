@@ -1,0 +1,30 @@
+{
+  "classes": {
+    "research": {
+      "model": "frontier",
+      "effort": "high",
+      "max_cost_usd_per_task": 2.00,
+      "why": "A wrong fact here ships in the piece. Spend reasoning to match."
+    },
+    "drafting": {
+      "model": "frontier",
+      "effort": "medium",
+      "max_cost_usd_per_task": 0.50,
+      "why": "Style work with a human gate before anything publishes."
+    },
+    "scheduling": {
+      "model": "cheap",
+      "effort": "low",
+      "max_cost_usd_per_task": 0.05,
+      "why": "Mechanical work, but keep the log: low effort can mean zero readable reasoning, so the tool-call records are the only audit trail."
+    },
+    "publishing": {
+      "model": "frontier",
+      "effort": "high",
+      "max_cost_usd_per_task": 1.00,
+      "why": "Public actions under a person's name. Wrong is expensive."
+    }
+  },
+  "fallback": null,
+  "note": "fallback stays null on purpose: a task class with no budget is an error. If you want a fallback, write one here deliberately."
+}

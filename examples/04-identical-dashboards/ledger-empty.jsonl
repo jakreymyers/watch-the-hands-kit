@@ -1,0 +1,1 @@
+{"record_type":"schema","schema_version":"1.0","created":"2026-09-05","rules":["append_only","missing_is_null_not_zero","timestamps_iso8601_utc","corrections_append_not_overwrite"]}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480" font-family="Helvetica, Arial, sans-serif">
+  <rect width="880" height="480" fill="#ffffff"/>
+  <text x="440" y="38" text-anchor="middle" font-size="22" fill="#1a1a1a">Effort is a cost setting with a cliff</text>
+  <text x="440" y="62" text-anchor="middle" font-size="14" fill="#666666">decide per task class what a wrong answer costs, and spend reasoning to match</text>
+
+  <text x="60" y="105" font-size="15" fill="#2a6fb3" font-weight="bold">your classes, your budgets</text>
+  <g font-size="14" fill="#1a1a1a" font-family="Menlo, Consolas, monospace">
+    <rect x="60" y="120" width="360" height="52" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+    <text x="80" y="142">research    frontier / high</text>
+    <text x="80" y="162" fill="#666666" font-size="12">a wrong fact ships in the piece</text>
+    <rect x="60" y="182" width="360" height="52" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+    <text x="80" y="204">drafting    frontier / medium</text>
+    <text x="80" y="224" fill="#666666" font-size="12">a human gates it before it publishes</text>
+    <rect x="60" y="244" width="360" height="52" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+    <text x="80" y="266">scheduling  cheap / low</text>
+    <text x="80" y="286" fill="#666666" font-size="12">mechanical; the log is the audit trail</text>
+    <rect x="60" y="306" width="360" height="52" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+    <text x="80" y="328">publishing  frontier / high</text>
+    <text x="80" y="348" fill="#666666" font-size="12">public actions under a person's name</text>
+  </g>
+  <text x="60" y="392" font-size="13" fill="#b3402a">a class with no entry is an error. Nothing is inherited.</text>
+
+  <text x="500" y="105" font-size="15" fill="#2a6fb3" font-weight="bold">the cliff, from the launch-week benchmarks</text>
+  <g font-size="13" font-family="Menlo, Consolas, monospace">
+    <text x="500" y="140" fill="#666666">reasoning tokens on one pelican task, by effort</text>
+    <line x1="490" y1="355" x2="830" y2="355" stroke="#c9d2da" stroke-width="2"/>
+    <text x="505" y="345" fill="#1a1a1a">0</text>
+    <text x="500" y="375" fill="#1a1a1a">low</text>
+    <text x="575" y="345" fill="#1a1a1a">0</text>
+    <text x="570" y="375" fill="#1a1a1a">medium</text>
+    <rect x="660" y="260" width="40" height="95" fill="#2a6fb3"/>
+    <text x="655" y="375" fill="#1a1a1a">xhigh</text>
+    <text x="640" y="252" fill="#1a1a1a">36,767 ($1.83)</text>
+    <rect x="760" y="185" width="40" height="170" fill="#1a4a7a"/>
+    <text x="765" y="375" fill="#1a1a1a">max</text>
+    <text x="720" y="177" fill="#1a1a1a">65,927 ($3.30)</text>
+  </g>
+  <text x="500" y="410" font-size="13" fill="#666666">at the cheap settings there may be nothing readable to audit</text>
+  <text x="500" y="432" font-size="13" fill="#666666">at the top setting one task can cost what a day should</text>
+</svg>

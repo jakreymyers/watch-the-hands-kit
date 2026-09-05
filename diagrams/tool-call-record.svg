@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="560" viewBox="0 0 880 560" font-family="Menlo, Consolas, monospace">
+  <rect width="880" height="560" fill="#ffffff"/>
+  <text x="440" y="38" text-anchor="middle" font-size="22" fill="#1a1a1a" font-family="Helvetica, Arial, sans-serif">One record per tool call</text>
+  <text x="440" y="62" text-anchor="middle" font-size="14" fill="#666666" font-family="Helvetica, Arial, sans-serif">the doing itself, with its inputs and outputs attached</text>
+
+  <rect x="60" y="90" width="360" height="130" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+  <text x="80" y="118" font-size="14" fill="#2a6fb3" font-weight="bold">when and who</text>
+  <text x="80" y="144" font-size="14" fill="#1a1a1a">ts        2026-09-05T19:12:31Z</text>
+  <text x="80" y="168" font-size="14" fill="#1a1a1a">run_id    run-ex3</text>
+  <text x="80" y="192" font-size="14" fill="#1a1a1a">lane      research-agent</text>
+
+  <rect x="460" y="90" width="360" height="130" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+  <text x="480" y="118" font-size="14" fill="#2a6fb3" font-weight="bold">what was done</text>
+  <text x="480" y="144" font-size="14" fill="#1a1a1a">tool      web_fetch</text>
+  <text x="480" y="168" font-size="14" fill="#1a1a1a">inputs    url as sent</text>
+  <text x="480" y="192" font-size="14" fill="#1a1a1a">outputs   stored_at, payload</text>
+
+  <rect x="60" y="250" width="360" height="110" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+  <text x="80" y="278" font-size="14" fill="#2a6fb3" font-weight="bold">the decision it served</text>
+  <text x="80" y="304" font-size="14" fill="#1a1a1a">task_id   task-ex3-01</text>
+  <text x="80" y="328" font-size="14" fill="#666666">task names what the work was for</text>
+
+  <rect x="460" y="250" width="360" height="110" rx="6" fill="#fdeeee" stroke="#d9a49c"/>
+  <text x="480" y="278" font-size="14" fill="#b3402a" font-weight="bold">who allowed it</text>
+  <text x="480" y="304" font-size="14" fill="#1a1a1a">authorization</text>
+  <text x="480" y="328" font-size="14" fill="#1a1a1a">  kind: grant   ref: read-only-web</text>
+
+  <rect x="60" y="390" width="360" height="130" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+  <text x="80" y="418" font-size="14" fill="#2a6fb3" font-weight="bold">the configuration</text>
+  <text x="80" y="444" font-size="14" fill="#1a1a1a">requested_config  model, effort</text>
+  <text x="80" y="468" font-size="14" fill="#1a1a1a">observed_config   model, effort</text>
+  <text x="80" y="492" font-size="14" fill="#666666">the downgrade detector lives on the diff</text>
+
+  <rect x="460" y="390" width="360" height="130" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
+  <text x="480" y="418" font-size="14" fill="#2a6fb3" font-weight="bold">the outcome</text>
+  <text x="480" y="444" font-size="14" fill="#1a1a1a">status     ok | error</text>
+  <text x="480" y="468" font-size="14" fill="#1a1a1a">cost_usd   null when unknown</text>
+  <text x="480" y="492" font-size="14" fill="#666666">missing is null, never zero</text>
+</svg>
