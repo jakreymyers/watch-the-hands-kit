@@ -1,7 +1,7 @@
 # Standalone repo-link post (POSTED)
 
 Status: POSTED 2026-09-05 ~2:49 PM PT as https://x.com/Jakrey/status/2096354940583022748
-Pipeline: drafted against the full playbook, Jak-rejection pass, editorial quality-presence pass (SHIP with singular "an unrequested style decision"), Jak's gate (approved 2:01 PM PT). Approved text in jak-x-system DRAFT-2026-09-05-REPO-LINK-POST-v2.md (commit 1946fac). [article link] filled with the live article URL at publish.
+Pipeline: drafted against the full playbook, Jak-rejection pass, editorial quality-presence pass (one required fix - singular "an unrequested style decision" - applied, then SHIP), Jak's gate (approved 2:01 PM PT). Approved text in jak-x-system DRAFT-2026-09-05-REPO-LINK-POST-v2.md (commit 1946fac). [article link] filled with the live article URL at publish.
 Posting note: the first attempt posted mangled (X's composer submitted only the last paragraph) and was deleted within ~2 minutes; the posted copy above was verified verbatim at the live URL.
 
 ## The post (as published)
