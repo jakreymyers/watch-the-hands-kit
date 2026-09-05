@@ -39,13 +39,17 @@ your stack. Python 3.9+, standard library only, no dependencies.
 ## Quickstart
 
 ```bash
-# run the four worked examples, one per launch-week failure
+# run the worked examples
 python3 src/validate.py examples/01-fabricated-quotes/ledger.jsonl
 python3 src/flags.py examples/04-identical-dashboards/ledger-tasks.jsonl
-python3 src/flags.py examples/04-identical-dashboards/ledger-empty.jsonl
-python3 src/downgrade.py examples/03-silent-downgrade/ledger.jsonl --write
+python3 src/flags.py examples/04-identical-dashboards/ledger-empty.jsonl   # exits 1 on purpose: no tasks recorded, so no flag count means anything
+python3 src/downgrade.py examples/03-silent-downgrade/ledger.jsonl --write  # appends 2 alert records to the example ledger, exits 1: that is the detection working
 python3 src/budgets.py config/budgets.json research
 ```
+
+Some commands write to the example ledgers (`--write`) or exit
+nonzero on purpose. `git checkout -- examples/` restores the shipped
+state.
 
 Each example directory has its own README explaining the failure it
 reproduces and what the kit catches.

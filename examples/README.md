@@ -17,7 +17,7 @@ behind it.
 Run everything from the repo root:
 
 ```bash
-for d in examples/0*; do python3 src/validate.py "$d"/ledger*.jsonl; done
+for f in examples/0*/ledger*.jsonl; do python3 src/validate.py "$f"; done
 python3 src/flags.py examples/01-fabricated-quotes/ledger.jsonl
 python3 src/downgrade.py examples/03-silent-downgrade/ledger.jsonl --write
 ```
