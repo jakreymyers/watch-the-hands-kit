@@ -12,6 +12,7 @@ behind it.
 | 02-unapproved-style-change | an agent made a style decision it was never asked for | every call names its approver or grant, so uncovered actions are a query |
 | 03-silent-downgrade | model and effort dropped mid-run, no error | requested vs observed config comparison raises the alert the vendor never sends |
 | 04-identical-dashboards | zero flags, and no way to know what ran | flag counts refuse to print without a task denominator |
+| 05-real-session | one real day of a production agent ledger, scrubbed | downgrade detection reports when it is blind instead of reporting clean |
 
 Run everything from the repo root:
 

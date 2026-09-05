@@ -8,11 +8,11 @@
   <text x="450" y="428" font-size="12" fill="#666666">19:15</text>
   <text x="740" y="428" font-size="12" fill="#666666">19:18</text>
 
-  <text x="60" y="105" font-size="13" fill="#666666">requested</text>
+  <text x="110" y="105" font-size="13" fill="#666666" text-anchor="end">requested</text>
   <rect x="120" y="88" width="700" height="34" rx="4" fill="#dcebf7" stroke="#2a6fb3"/>
   <text x="140" y="110" font-size="14" fill="#1a1a1a">model: frontier   effort: high</text>
 
-  <text x="60" y="165" font-size="13" fill="#666666">observed</text>
+  <text x="110" y="165" font-size="13" fill="#666666" text-anchor="end">observed</text>
   <rect x="120" y="148" width="300" height="34" rx="4" fill="#dcebf7" stroke="#2a6fb3"/>
   <text x="140" y="170" font-size="14" fill="#1a1a1a">frontier / high</text>
   <rect x="420" y="148" width="220" height="34" rx="4" fill="#fdeeee" stroke="#b3402a"/>
@@ -20,14 +20,14 @@
   <rect x="640" y="148" width="180" height="34" rx="4" fill="#fdeeee" stroke="#b3402a"/>
   <text x="660" y="170" font-size="14" fill="#b3402a">cheap / low</text>
 
-  <text x="60" y="235" font-size="13" fill="#666666">reasoning</text>
-  <text x="60" y="250" font-size="13" fill="#666666">tokens</text>
+  <text x="110" y="227" font-size="13" fill="#666666" text-anchor="end">reasoning</text>
+  <text x="110" y="243" font-size="13" fill="#666666" text-anchor="end">tokens</text>
   <rect x="120" y="205" width="300" height="34" rx="4" fill="#f4f6f8" stroke="#c9d2da"/>
   <text x="140" y="227" font-size="14" fill="#1a1a1a">4,210</text>
   <rect x="420" y="205" width="400" height="34" rx="4" fill="#f4f6f8" stroke="#c9d2da"/>
   <text x="440" y="227" font-size="14" fill="#1a1a1a">0</text>
 
-  <text x="60" y="305" font-size="13" fill="#666666">status</text>
+  <text x="110" y="305" font-size="13" fill="#666666" text-anchor="end">status</text>
   <text x="140" y="305" font-size="14" fill="#1a7a3c">ok</text>
   <text x="440" y="305" font-size="14" fill="#1a7a3c">ok</text>
   <text x="660" y="305" font-size="14" fill="#1a7a3c">ok</text>

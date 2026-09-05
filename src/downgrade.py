@@ -23,6 +23,8 @@ def main() -> int:
     args = ap.parse_args()
 
     mismatches = []
+    comparable = 0
+    calls = 0
     with open(args.ledger, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -31,18 +33,32 @@ def main() -> int:
             r = json.loads(line)
             if r.get("record_type") != "tool_call":
                 continue
+            calls += 1
             req = r.get("requested_config") or {}
             obs = r.get("observed_config") or {}
             diff = []
+            has_overlap = False
             for field in sorted(set(req) | set(obs)):
                 rv, ov = req.get(field), obs.get(field)
-                if rv is not None and ov is not None and rv != ov:
-                    diff.append({"field": field, "requested": rv, "observed": ov})
+                if rv is not None and ov is not None:
+                    has_overlap = True
+                    if rv != ov:
+                        diff.append({"field": field, "requested": rv, "observed": ov})
+            if has_overlap:
+                comparable += 1
             if diff:
                 mismatches.append((r, diff))
 
+    if calls and comparable == 0:
+        print(f"{calls} tool call(s) checked; none carried observable config "
+              f"(observed_config is null everywhere). Downgrade detection is "
+              f"blind on this ledger: a mismatched run would produce no alert. "
+              f"Record the observed model and effort per call, or this check "
+              f"cannot fire.")
+        return 1
     if not mismatches:
-        print("No config mismatches found.")
+        blind = f" ({calls - comparable} call(s) carried no observable config)" if calls > comparable else ""
+        print(f"No config mismatches found across {comparable} comparable call(s){blind}.")
         return 0
 
     alerts = []
@@ -68,8 +84,9 @@ def main() -> int:
         print(f"\n{len(alerts)} alert record(s) appended.")
     else:
         print(f"\n{len(mismatches)} mismatched call(s). Re-run with --write to record alerts.")
-    return 0
+    return 1
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    sys.exit(main())

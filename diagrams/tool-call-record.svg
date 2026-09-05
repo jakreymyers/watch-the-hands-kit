@@ -29,7 +29,7 @@
   <text x="80" y="418" font-size="14" fill="#2a6fb3" font-weight="bold">the configuration</text>
   <text x="80" y="444" font-size="14" fill="#1a1a1a">requested_config  model, effort</text>
   <text x="80" y="468" font-size="14" fill="#1a1a1a">observed_config   model, effort</text>
-  <text x="80" y="492" font-size="14" fill="#666666">the downgrade detector lives on the diff</text>
+  <text x="80" y="492" font-size="14" fill="#666666">the detector lives on the diff</text>
 
   <rect x="460" y="390" width="360" height="130" rx="6" fill="#f4f6f8" stroke="#c9d2da"/>
   <text x="480" y="418" font-size="14" fill="#2a6fb3" font-weight="bold">the outcome</text>
