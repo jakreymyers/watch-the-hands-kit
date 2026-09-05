@@ -22,7 +22,7 @@
 
   <text x="500" y="105" font-size="15" fill="#2a6fb3" font-weight="bold">the cliff, from the launch-week benchmarks</text>
   <g font-size="13" font-family="Menlo, Consolas, monospace">
-    <text x="500" y="140" fill="#666666">reasoning tokens on one pelican task, by effort</text>
+    <text x="500" y="140" fill="#666666">visible reasoning tokens on one pelican task, by effort</text>
     <line x1="490" y1="355" x2="830" y2="355" stroke="#c9d2da" stroke-width="2"/>
     <text x="505" y="345" fill="#1a1a1a">0</text>
     <text x="500" y="375" fill="#1a1a1a">low</text>

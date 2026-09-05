@@ -1,7 +1,7 @@
 # 3. Set the effort budget per task class
 
 Effort is a cost setting with a cliff. In the launch-week benchmarks,
-the same model wrote zero reasoning tokens at the low and medium
+the same model showed no visible reasoning at the low and medium
 settings routine work runs on, and tens of thousands of tokens at the
 top settings, at real prices. Both ends are a problem. At the cheap
 end, there may be nothing readable to audit, so the tool-call log is
